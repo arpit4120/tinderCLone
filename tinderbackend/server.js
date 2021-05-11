@@ -6,7 +6,16 @@ import cors from "cors";
 //App config
 const app=express();
 const port= process.env.PORT||8000;
-const connection_url='mongodb+srv://admin:GbxSHadXh6ye8T7h@cluster0.r9thv.mongodb.net/tinder?retryWrites=true&w=majority'
+const connection_url='mongodb link'
+
+///
+////
+/////
+//////mongo db link to place
+////
+///
+//
+/
 
 //Middlewares
 app.use(express.json());
